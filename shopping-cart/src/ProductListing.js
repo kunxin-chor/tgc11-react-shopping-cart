@@ -20,13 +20,13 @@ export default function ProductListing() {
 
   return (
     <React.Fragment>
-      <h1>Our Products</h1>
       {products.map(p => (
         <div className="card">
           <div className="card-body">
             <h5 className="card-title">{p.name}</h5>
             <h6>Cost: {p.cost}</h6>
             <p>{p.description}</p>
+            <button>Add to Cart</button>
           </div>
         </div>
       ))}

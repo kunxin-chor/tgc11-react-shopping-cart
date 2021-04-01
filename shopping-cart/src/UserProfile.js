@@ -22,6 +22,11 @@ export default function UserProfile() {
   return (
     <React.Fragment>
       <h1>User Profile</h1>
+      <ul>
+          <li>User Name: {profile.username}</li>
+          <li>Email: {profile.email}</li>
+      </ul>
+
     </React.Fragment>
   );
 }
