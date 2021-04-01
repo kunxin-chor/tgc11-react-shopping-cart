@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import axios from 'axios'
+import config from './config';
 
-const BASE_URL = "https://3000-jade-minnow-44faco8x.ws-us03.gitpod.io";
+const BASE_URL = config.BASE_URL;
 
 export default function LoginComponent() {
   const [email, setEmail] = useState("");
