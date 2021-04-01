@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ProductListing from "./ProductListing";
+import UserProfile from "./UserProfile";
+
 
 function App() {
   return (
     <React.Fragment>
-      <ProductListing />
+      <UserProfile/>
     </React.Fragment>
   );
 }
